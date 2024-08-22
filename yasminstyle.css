@@ -1,0 +1,59 @@
+body {
+  color: red;
+  background: black; /* Corrigido "BLACK" para "black" */
+  margin: 0px; /* Corrigido "Opx" para "0px" */
+  font-family: "Bebas Neue", sans-serif; /* Corrigido a declaração da font-family */
+}
+
+header {
+  border-bottom: solid 2px yellow;
+  padding: 20px;
+  font-size: 32px; /* Corrigido "font: size 32px" para "font-size: 32px" */
+  color: orangered;
+}
+
+.chamada {
+  background-color: aliceblue;
+  padding-bottom: 80px; /* Corrigido "80 px" para "80px" */
+  padding-top: 80px; /* Corrigido "80 px" para "80px" */
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+p { /* Corrigido "P" para "p" (CSS é case-sensitive) */
+  font-size: 25px;
+}
+
+.categoria-videos { /* Adicionado ponto "." antes de "categoria-videos" para o seletor de classe */
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5; /* Corrigido "0.5px" para "0.5" */
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0; /* Corrigido "1.0px" para "1.0" */
+  border: 3px solid saddlebrown; /* Adicionado "solid" para especificar o estilo da borda */
+}
+
+.categoria h2 {
+  color: black;
+}
